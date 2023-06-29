@@ -17,6 +17,9 @@ if(!isset($_SESSION["username"]))
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <style>
+        .IA{
+            font-size: 30px;
+        }
         .container{
             font-family: 'Pacifico', cursive;
         }
@@ -35,7 +38,7 @@ if(!isset($_SESSION["username"]))
     <center>
         <img class="logo" src="https://th.bing.com/th?id=OIP.IHUPBfUI8eKCOZ9Oxrt82gHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" width="92" height="80">
     </center>
-    <img src="2.jpg" width="114px" height="129px">
+    <!-- <img src="2.jpg" width="114px" height="129px"> -->
    
 
 <h1><i>USer Login</i>
@@ -44,6 +47,7 @@ if(!isset($_SESSION["username"]))
         Welcome to Abhinek Pandey in this Portal</h1><?php echo $_SESSION["username"] ?>
       </div>  
 <br>
+<a class="IA" href="IAA.html">IA Entry</a>
 
     <a class="Logout" href="Logout.php">Logout</a>
     

@@ -36,6 +36,7 @@ if(!isset($_SESSION["username"]))
         <br>
         Welcome to Dr. Srinivasa Rao K</h1><?php echo $_SESSION["username"] ?>
 <br>
+<a class="IA" href="IA.html">IA Entry</a>
     <a class="Logout"href="Logout.php">Logout</a>
 </body>
 </html>
